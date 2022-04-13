@@ -9,9 +9,20 @@ body {
 
 h1{
     color:goldenrod;
+    font-size: 50px;
 }
 
 #message-el{
     font-style: italic;
 
+}
+
+#start-btn{
+    width : 150px;
+    background-color: goldenrod;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #010f32;
 }

@@ -22,6 +22,9 @@ else {
     isAlive = false;
 }
 
+function startGame(){
+    console. log ("love you")
+}
 
 
 
