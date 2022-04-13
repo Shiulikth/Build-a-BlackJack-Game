@@ -1,18 +1,30 @@
-let firstCard = 4;
-let secoendCard = 8;
+let firstCard = 10;
+let secoendCard = 11;
 let sum = firstCard+secoendCard;
-console.log(sum) ;
+let hasBlackJack = false;
+let isAlive = true;
+let message = "";
+
+
 
 if (sum <= 20){
-    console.log("Do you want to draw a new card?")
+    message = "Do you want to draw a new card?";
+    
 }
 else if (sum === 21){
-    console.log("Wohoo! you've got black jack!")
+    message = "Wohoo! you've got black jack!"
+    hasBlackJack = true;
+    
 }
 
 else {
-    console.log("you're out of game")
+    message = "you're out of game";
+    isAlive = false;
 }
+
+
+
+
 
 // let age = 12;
 
